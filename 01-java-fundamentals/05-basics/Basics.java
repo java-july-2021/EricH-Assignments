@@ -2,39 +2,6 @@ import java.util.Arrays;
 import java.util.ArrayList;
 
 public class Basics {
-    public static void main(String[] args){
-        count();
-        countOdd();
-        sum();
-        
-        int [] arr1 = {1,3,5,7,9,13};
-        iterate(arr1);
-
-        int [] arr2 = {-3, -5, -7};
-        max(arr2);
-
-        int [] arr3 = {2,10,3};
-        average(arr3);
-
-        oddNumbers();
-
-        int [] arr4 = {1, 3, 5, 7};
-        greaterThan(arr4, 3);
-
-        int [] arr5 = {1, 5, 10, -2};
-        square(arr5);
-
-        int [] arr6 = {1, 5, 10, -2};
-        negNumber(arr6);
-
-        int [] arr7 = {1, 5, 10, -2};
-        maxMinAvg(arr7);
-
-        int [] arr8 = {1, 5, 10, 7, -2};
-        shiftValues(arr8);
-
-    }
-
     public static void count(){
         for(int x = 0; x <= 255; x++){
             System.out.println(x);
