@@ -17,6 +17,7 @@ public class PuzzlingTester {
         puzzel.alphabet();
         puzzel.random();
         puzzel.randomSort();
+        puzzel.randomString();
 
     }
 }

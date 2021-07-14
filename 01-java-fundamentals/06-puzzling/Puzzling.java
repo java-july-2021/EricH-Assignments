@@ -97,6 +97,15 @@ public class Puzzling {
 
     // Create a random string that is 5 characters long.
 
+    public static void randomString(){
+        ArrayList<Character> alphabet = new ArrayList<Character>();
+        String[] randomString = new String [5];
+        for (char x = 'a'; x <= 'z'; x++){
+            alphabet.add(x);
+        }
+        System.out.println(Arrays.toString(randomString));
+    }
+
 
     // Generate an array with 10 random strings that are each 5 characters long
 
